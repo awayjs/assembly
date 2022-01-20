@@ -1,0 +1,27 @@
+{
+  "name": "@awayjs/assembly",
+  "version": "1.0.0",
+  "description": "Distributable for AssemblyScript code",
+  "main": "lib/index.js",
+  "scripts": {
+    "asbuild:debug:simd": "asc --config asconfig.json --target debug:simd",
+    "asbuild:release:simd": "asc --config asconfig.json --target release:simd",
+    "asbuild:debug": "asc --config asconfig.json --target debug",
+    "asbuild:release": "asc --config asconfig.json --target release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awayjs/assembly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awayjs/assembly/issues"
+  },
+  "homepage": "https://github.com/awayjs/assembly#readme",
+  "dependencies": {
+    "assemblyscript": "^0.19.22"
+  }
+}
