@@ -4,7 +4,7 @@ export default {
     input: 'lib/index.js',
     output: {
       file: 'dist/bundle.js',
-      format: 'esm'
+      format: 'cjs'
     },
     plugins: [
       base64({ include: "**/*.wasm" }),
