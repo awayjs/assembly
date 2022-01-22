@@ -4,6 +4,8 @@
   "description": "Distributable for AssemblyScript code",
   "main": "lib/index.js",
   "scripts": {
+    "build": "yarn asbuild:debug && yarn asbuild:release && yarn asbuild:debug:simd && yarn asbuild:release:simd && yarn rollup",
+    "rollup": "rollup --config rollup.config.js",
     "asbuild:debug:simd": "asc --config asconfig.json --target debug:simd",
     "asbuild:release:simd": "asc --config asconfig.json --target release:simd",
     "asbuild:debug": "asc --config asconfig.json --target debug",
@@ -21,7 +23,10 @@
     "url": "https://github.com/awayjs/assembly/issues"
   },
   "homepage": "https://github.com/awayjs/assembly#readme",
-  "dependencies": {
-    "assemblyscript": "^0.19.22"
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.19.22",
+    "assemblyscript": "^0.19.22",
+    "rollup": "^2.66.0",
+    "rollup-plugin-base64": "^1.0.1"
   }
 }

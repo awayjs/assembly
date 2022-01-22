@@ -2,15 +2,15 @@
   "targets": {
     "debug:simd": {
       "enable": ["simd"],
-      "binaryFile": "build/untouched.wasm",
-      "textFile": "build/untouched.wat",
+      "binaryFile": "build/untouched-dims.wasm",
+      "textFile": "build/untouched-dims.wat",
       "sourceMap": true,
       "debug": true
     },
     "release:simd": {
       "enable": ["simd"],
-      "binaryFile": "build/optimized.wasm",
-      "textFile": "build/optimized.wat",
+      "binaryFile": "build/optimized-simd.wasm",
+      "textFile": "build/optimized-simd.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
       "shrinkLevel": 0,
