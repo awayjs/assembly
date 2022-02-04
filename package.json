@@ -2,7 +2,8 @@
   "name": "@awayjs/assembly",
   "version": "1.0.0",
   "description": "Distributable for AssemblyScript code",
-  "main": "lib/index.js",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
   "scripts": {
     "build": "yarn asbuild:debug && yarn asbuild:release && yarn asbuild:debug:simd && yarn asbuild:release:simd && yarn rollup",
     "rollup": "rollup --config rollup.config.js",
