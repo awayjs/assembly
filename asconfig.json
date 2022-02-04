@@ -13,7 +13,7 @@
       "textFile": "build/optimized-simd.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
-      "shrinkLevel": 0,
+      "shrinkLevel": 2,
       "converge": true,
       "noAssert": true
     },
@@ -28,7 +28,7 @@
       "textFile": "build/optimized.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
-      "shrinkLevel": 0,
+      "shrinkLevel": 2,
       "converge": true,
       "noAssert": true
     }

@@ -4,6 +4,7 @@
   "description": "Distributable for AssemblyScript code",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "yarn asbuild:debug && yarn asbuild:release && yarn asbuild:debug:simd && yarn asbuild:release:simd && yarn rollup",
     "rollup": "rollup --config rollup.config.js",
