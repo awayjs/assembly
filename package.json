@@ -2,8 +2,8 @@
   "name": "@awayjs/assembly",
   "version": "1.0.0",
   "description": "Distributable for AssemblyScript code",
-  "main": "dist/bundle.js",
-  "module": "dist/bundle.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "license": "Apache-2.0",
   "scripts": {
     "build": "yarn asbuild:debug && yarn asbuild:release && yarn asbuild:debug:simd && yarn asbuild:release:simd && yarn rollup",
