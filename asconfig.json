@@ -2,8 +2,8 @@
   "targets": {
     "debug:simd": {
       "enable": ["simd"],
-      "binaryFile": "build/untouched-dims.wasm",
-      "textFile": "build/untouched-dims.wat",
+      "binaryFile": "build/untouched-simd.wasm",
+      "textFile": "build/untouched-simd.wat",
       "sourceMap": true,
       "debug": true
     },
